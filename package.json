@@ -1,10 +1,11 @@
 {
   "private": true,
-  "webpackConfigJaid": "universalLib",
+  "webpackConfigJaid": "universalClass",
   "version": "0.1.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "@babel/runtime": "^7.4.5"
+    "@babel/runtime": "^7.4.5",
+    "polling-emitter": "^1.0.2"
   },
   "devDependencies": {
     "acorn": "^6.1.1",
@@ -14,8 +15,8 @@
     "eslint-config-jaid": "^1.18.0",
     "jest": "^24.8.0",
     "rimraf": "^2.6.3",
-    "webpack": "^4.35.0",
-    "webpack-config-jaid": "^5.19.0"
+    "webpack": "^4.35.2",
+    "webpack-config-jaid": "^5.19.2"
   },
   "scripts": {
     "clean": "rimraf dist/",

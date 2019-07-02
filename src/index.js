@@ -1,5 +1,7 @@
 /** @module steam-game-update-watcher */
 
+import PollingEmitter from "polling-emitter"
+
 /**
  * Returns the number of seconds passed since Unix epoch (01 January 1970)
  * @example
@@ -9,4 +11,13 @@
  * @function
  * @returns {number} Seconds since epoch
  */
-export default () => Math.floor(Date.now() / 1000)
+export default class extends PollingEmitter {
+
+  constructor() {
+    super({
+      pollIntervalSeconds: 300,
+      invalidateInitialEntries: true,
+    })
+  }
+
+}
