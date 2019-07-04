@@ -9,10 +9,10 @@
     "jaid-logger": "^1.4.0",
     "key-counter": "^1.0.0",
     "match-array": "^1.0.0",
-    "polling-emitter": "^1.1.0"
+    "polling-emitter": "^1.2.0"
   },
   "devDependencies": {
-    "acorn": "^6.1.1",
+    "acorn": "^6.2.0",
     "babel-jest": "^24.8.0",
     "babel-preset-jaid": "^6.8.0",
     "delay": "^4.3.0",
