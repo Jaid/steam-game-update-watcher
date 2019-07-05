@@ -9,12 +9,12 @@
     "jaid-logger": "^1.4.0",
     "key-counter": "^1.0.0",
     "match-array": "^1.0.0",
-    "polling-emitter": "^2.0.0"
+    "polling-emitter": "^3.0.0"
   },
   "devDependencies": {
     "acorn": "^6.2.0",
     "babel-jest": "^24.8.0",
-    "babel-preset-jaid": "^6.8.0",
+    "babel-preset-jaid": "^6.8.1",
     "delay": "^4.3.0",
     "eslint": "^6.0.1",
     "eslint-config-jaid": "^1.18.0",
@@ -33,6 +33,6 @@
     "test": "npm run build:prod && NODE_ENV=production MAIN=$(npx find-by-extension-cli js --fullPath --cwd dist/package/production) jest --runInBand",
     "test:coverage": "npm run test:dev -- --coverage --json --outputFile=dist/jest/stats.json",
     "test:dev": "npm run build:dev && NODE_ENV=test MAIN=$(npx find-by-extension-cli js --fullPath --cwd dist/package/development) jest --runInBand",
-    "test:debug": "DEBUG=\"$(basename $PWD),$(basename $PWD):*\" NODE_ENV=test node --inspect=9229 node_modules/jest/bin/jest.js --runInBand"
+    "test:debug": "DEBUG=\"$DEBUG,$(basename $PWD),$(basename $PWD):*\" NODE_ENV=test node --inspect=9229 node_modules/jest/bin/jest.js --runInBand"
   }
 }

@@ -14,17 +14,11 @@ export default class extends PollingEmitter {
 
   constructor(options) {
     super({
-      pollIntervalSeconds: 10,
       invalidateInitialEntries: true,
-      autostart: true,
       ...options,
     })
     this.got = got.extend({
       baseUrl: "https://steamdb.info",
-    })
-    this.on("invalidatedEntry", entry => {
-      console.log(entry)
-      debugger
     })
   }
 
