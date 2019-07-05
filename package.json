@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "@babel/runtime": "^7.4.5",
+    "@babel/runtime": "^7.5.0",
     "got": "^9.6.0",
     "jaid-logger": "^1.4.0",
     "key-counter": "^1.0.0",
