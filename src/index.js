@@ -52,7 +52,6 @@ export default class extends PollingEmitter {
       },
     })
     this.on("newEntry", entry => {
-      debugger
       const counter = new KeyCounter(entry.changes)
       const counts = aliasFields(counter.toObject(), {
         fileAdded: "diff-added",
