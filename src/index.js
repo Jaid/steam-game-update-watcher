@@ -9,7 +9,7 @@ const fetchChangesRegex = new RegExp("class=\"octicon octicon-(?<icon>.+?)\"", "
 
 /**
  * @class
- *  */
+ */
 export default class extends PollingEmitter {
 
   constructor(options) {
