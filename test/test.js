@@ -12,22 +12,30 @@ const {default: SteamGameUpdateWatcher} = indexModule
 
 it("should run", async () => {
   const watcher = new SteamGameUpdateWatcher({
-    depotId: "381211",
+    depotId: "241321", // Ittle Dew Content
     pollInterval: ms`5 seconds`,
   })
+  let initialEntryFired = false
+  let manifestChangedFired = false
+  watcher.on("initialEntry", entry => {
+    expect(entry.changes.length > 0).toBe(true)
+    initialEntryFired = true
+  })
+  watcher.on("manifestChanged", entry => {
+    expect(entry.changes).toStrictEqual({
+      manifestChanged: 1,
+    })
+    manifestChangedFired = true
+  })
   watcher.start()
-  let newEntryFired = false
   expect(watcher.isRunning).toBe(true)
-  watcher.on("newEntry", entry => {
-    console.log(entry)
-    newEntryFired = true
-    debugger
+  watcher.emit("newEntry", {
+    id: "123",
+    changes: ["git-commit"],
   })
-  watcher.on("invalidatedEntry", entry => {
-    console.log(entry)
-    debugger
-  })
-  await delay(ms`30 seconds`)
+  await delay(ms`15 seconds`)
   watcher.stop()
-  expect(newEntryFired).toBe(true)
-}, ms`1 minute`)
+  expect(watcher.isRunning).toBe(false)
+  expect(initialEntryFired).toBe(true)
+  expect(manifestChangedFired).toBe(true)
+}, ms`16 seconds`)
