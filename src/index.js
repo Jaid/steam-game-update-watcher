@@ -47,6 +47,9 @@ export default class extends PollingEmitter {
     })
     this.got = got.extend({
       baseUrl: "https://steamdb.info",
+      headers: {
+        "User-Agent": `${_PKG_TITLE} v${_PKG_VERSION}`,
+      },
     })
     this.on("newEntry", entry => {
       debugger
