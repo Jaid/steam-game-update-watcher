@@ -4,27 +4,27 @@
   "version": "1.1.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "@babel/runtime": "^7.5.2",
+    "@babel/runtime": "^7.5.5",
     "alias-fields": "^1.0.0",
     "got": "^9.6.0",
-    "jaid-logger": "^1.4.0",
-    "key-counter": "^1.0.0",
-    "lodash": "^4.17.11",
+    "jaid-logger": "^1.4.2",
+    "key-counter": "^1.0.1",
+    "lodash": "^4.17.15",
     "match-array": "^1.0.0",
-    "polling-emitter": "^3.1.1"
+    "polling-emitter": "^3.2.2"
   },
   "devDependencies": {
-    "acorn": "^6.2.0",
-    "babel-jest": "^24.8.0",
-    "babel-preset-jaid": "^6.8.1",
-    "browserslist-config-jaid-node": "^2.2.1",
+    "acorn": "^7.0.0",
+    "babel-jest": "^24.9.0",
+    "babel-preset-jaid": "^6.9.0",
+    "browserslist-config-jaid-node": "^2.2.2",
     "delay": "^4.3.0",
-    "eslint": "^6.0.1",
-    "eslint-config-jaid": "^1.18.0",
-    "jest": "^24.8.0",
-    "rimraf": "^2.6.3",
-    "webpack": "^4.35.3",
-    "webpack-config-jaid": "^5.22.0"
+    "eslint": "^6.2.1",
+    "eslint-config-jaid": "^1.28.2",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
+    "webpack": "^4.39.2",
+    "webpack-config-jaid": "^5.27.3"
   },
   "scripts": {
     "clean": "rimraf dist/",
