@@ -1,9 +1,9 @@
 # steam-game-update-watcher
 
 
-<a href="https://raw.githubusercontent.com/Jaid/steam-game-update-watcher/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/steam-game-update-watcher?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/steam-game-update-watcher/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fsteam-game-update-watcher%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/steam-game-update-watcher/commits"><img src="https://img.shields.io/github/commits-since/Jaid/steam-game-update-watcher/v1.1.1?style=flat-square&logo=github" alt="Commits since v1.1.1"/></a> <a href="https://github.com/Jaid/steam-game-update-watcher/commits"><img src="https://img.shields.io/github/last-commit/Jaid/steam-game-update-watcher?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/steam-game-update-watcher/issues"><img src="https://img.shields.io/github/issues/Jaid/steam-game-update-watcher?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/steam-game-update-watcher"><img src="https://img.shields.io/npm/v/steam-game-update-watcher?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/steam-game-update-watcher/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/steam-game-update-watcher?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/steam-game-update-watcher"><img src="https://img.shields.io/npm/dm/steam-game-update-watcher?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/steam-game-update-watcher/master/license.txt"><img src="https://img.shields.io/github/license/jaid/steam-game-update-watcher?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor steam-game-update-watcher"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/steam-game-update-watcher/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fsteam-game-update-watcher%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/steam-game-update-watcher/commits"><img src="https://img.shields.io/github/commits-since/jaid/steam-game-update-watcher/v1.1.1?style=flat-square&logo=github" alt="Commits since v1.1.1"/></a> <a href="https://github.com/jaid/steam-game-update-watcher/commits"><img src="https://img.shields.io/github/last-commit/jaid/steam-game-update-watcher?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/steam-game-update-watcher/issues"><img src="https://img.shields.io/github/issues/jaid/steam-game-update-watcher?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/steam-game-update-watcher"><img src="https://img.shields.io/npm/v/steam-game-update-watcher?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/steam-game-update-watcher/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/steam-game-update-watcher?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/steam-game-update-watcher"><img src="https://img.shields.io/npm/dm/steam-game-update-watcher?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Emits an event whenever a specific Steam game gets patched.**
 
@@ -37,14 +37,13 @@ yarn add steam-game-update-watcher@^1.1.1
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/steam-game-update-watcher.git
+git clone git@github.com:jaid/steam-game-update-watcher.git
 cd steam-game-update-watcher
 npm install
 ```
