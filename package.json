@@ -40,5 +40,9 @@
   },
   "name": "steam-game-update-watcher",
   "description": "Emits an event whenever a specific Steam game gets patched.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/steam-game-update-watcher"
+  }
 }
