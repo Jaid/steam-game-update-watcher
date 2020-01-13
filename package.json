@@ -39,5 +39,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "steam-game-update-watcher",
-  "description": "Emits an event whenever a specific Steam game gets patched."
+  "description": "Emits an event whenever a specific Steam game gets patched.",
+  "funding": "https://github.com/sponsors/jaid"
 }
