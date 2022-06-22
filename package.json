@@ -4,7 +4,7 @@
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
     "alias-fields": "^1.0.0",
-    "got": "^10.7.0",
+    "got": "^11.8.5",
     "jaid-logger": "^2.2.0",
     "key-counter": "^1.0.3",
     "lodash": "^4.17.15",
